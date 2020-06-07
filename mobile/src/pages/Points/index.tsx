@@ -109,8 +109,8 @@ const Points = () => {
           <Icon name="arrow-left" size={20} color="#34cb79" />
         </TouchableOpacity>
 
-        <Text style={styles.title}>Bem vindo.</Text>
-        <Text style={styles.description}>Encontre no mapa um ponto de coleta.</Text>
+        <Text style={styles.title}>Welcome.</Text>
+        <Text style={styles.description}>Find in the map a point of collect.</Text>
 
         <View style={styles.mapContainer}>
           { initialPosition[0] !== 0 && (

@@ -147,7 +147,7 @@ const CreatePoint = () => {
       data.append('image', selectedFile);
     }
 
-    console.log(data);
+    //console.log(data);
     await api.post('points', data);
 
     alert ('Ponto de coleta criado!');
@@ -162,22 +162,22 @@ const CreatePoint = () => {
 
         <Link to="/">
           <FiArrowLeft />
-          Voltar para home
+          Go back home
         </Link>
       </header>
 
       <form onSubmit={handleSubmit}>
-        <h1>Cadastro do <br/> ponto de coleta</h1>
+        <h1>Register of <br/> collecting point</h1>
 
         <Dropzone onFileUploaded={setSelectedFile} />
 
         <fieldset>
           <legend>
-            <h2>Dados</h2>
+            <h2>Data</h2>
           </legend>
 
           <div className="field">
-            <label htmlFor="name">Nome da entidade</label>
+            <label htmlFor="name">Entity Name</label>
             <input 
               type="text"
               name="name"
@@ -210,8 +210,8 @@ const CreatePoint = () => {
 
         <fieldset>
           <legend>
-            <h2>Endereço</h2>
-            <span>Selecione o endereço no mapa</span>
+            <h2>Address</h2>
+            <span>Select the address in the map</span>
           </legend>
 
           <Map center={initialPosition} zoom={15} onClick={handleMapClick}>
@@ -224,28 +224,28 @@ const CreatePoint = () => {
 
           <div className="field-group">
             <div className="field">
-              <label htmlFor="uf">Estado (UF)</label>
+              <label htmlFor="uf">State (UF)</label>
               <select 
                 name="uf" 
                 id="uf" 
                 value={selectedUf} 
                 onChange={handleSelectUf}
               >
-                <option value="0">Selecione uma UF</option>
+                <option value="0">Select a UF</option>
                 {ufs.map(uf => (
                   <option key={uf} value={uf}>{uf}</option>
                 ))}
               </select>
             </div>
             <div className="field">
-              <label htmlFor="city">Cidade</label>
+              <label htmlFor="city">City</label>
               <select 
                 name="city" 
                 id="city"
                 value={selectedCity}
                 onChange={handleSelectCity}
               >
-                <option value="0">Selecione uma cidade</option>
+                <option value="0">Select a city</option>
                 {cities.map(city => (
                   <option key={city} value={city}>{city}</option>
                 ))}
@@ -256,8 +256,8 @@ const CreatePoint = () => {
 
         <fieldset>
           <legend>
-            <h2>Ítens de coleta</h2>
-            <span>Selecione um ou mais ítens abaixo</span>
+            <h2>Items of collecting</h2>
+            <span>Select one or more items below</span>
           </legend>
 
           <ul className="items-grid">
@@ -275,7 +275,7 @@ const CreatePoint = () => {
         </fieldset>
 
         <button type="submit">
-          Cadastrar ponto de coleta
+          Register point of collect
         </button>
       </form>
       

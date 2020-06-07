@@ -16,7 +16,7 @@ interface Data {
     image_url: string;
     name: string;
     email: string;
-    whatsapp: string;
+    whatsapp: number;
     city: string;
     uf: string;
   };
@@ -71,7 +71,7 @@ const Detail = () => {
         <Text style={styles.pointItems}>{data.items.map(item => item.title).join(', ')}</Text>
 
         <View style={styles.address}>
-          <Text style={styles.addressTitle}>Endereco</Text>
+          <Text style={styles.addressTitle}>Address</Text>
           <Text style={styles.addressContent}>{data.point.city}, {data.point.uf}</Text>  
         </View> 
       </View>
