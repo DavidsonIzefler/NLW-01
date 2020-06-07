@@ -1,10 +1,9 @@
 <h1 align="center">Welcome to Ecoleta Booster - Next Level Week - Powered by Rocketseat 👋</h1>
 
 <p align="center">
-    <img alt="node" src="https://img.shields.io/badge/NodeJS-v12-brightgreen" />
+    <img alt="node" src="https://img.shields.io/badge/Node-JS-brightgreen" />
     <img alt="node" src="https://img.shields.io/badge/React-JS-brightgreen" />
     <img alt="node" src="https://img.shields.io/badge/React-Native-brightgreen" />
-    <img alt="node" src="https://img.shields.io/badge/expo-v3-lightgrey" />
 </p>
 
 <p>
