@@ -9,6 +9,8 @@
 </p>
 
 > This project is part of training week to lear Node.JS stach with ReactJS and React-Native.
+## Architecture Front-End and Back-End
+![](https://github.com/DavidsonIzefler/NLW-01/blob/master/images_README/Architecture_APP.png)
 
 ## Web APP
 ![](https://github.com/DavidsonIzefler/NLW-01/blob/master/images_README/WebAPP.png)
