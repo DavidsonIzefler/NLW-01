@@ -1,4 +1,4 @@
-<h1 align="center">Welcome to Ecoleta Booster - Next Level Week - Powered by [Rocketseat](https://rocketseat.com.br/) 👋</h1>
+<h1 align="center">Welcome to Ecoleta Booster - Next Level Week - Powered by Rocketseat 👋</h1>
 
 <p align="center">
     <img alt="node" src="https://img.shields.io/badge/NodeJS-v12-brightgreen" />
@@ -85,6 +85,7 @@ $ cd mobile
 $ npm install
 $ npm start
 
+```
 
 ## Author
 
