@@ -10,6 +10,12 @@
 
 > This project is part of training week to lear Node.JS stach with ReactJS and React-Native.
 
+##Web APP
+![Web APP](WebAPP.png)
+
+##Mobile APP
+![Mobile APP](EcoletaBoosterAPP.png)
+
 ### ✨ [Demo](https://www.figma.com/file/1SxgOMojOB2zYT0Mdk28lB/?viewer=1&node-id=)
 
 ## Install
