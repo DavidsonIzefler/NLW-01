@@ -17,18 +17,18 @@
 </p>
 
 <p align="center">
-  <a href="#architecture-application">Architecture</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#rocket-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#computer-architecture">Architecture</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#wrench-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#bookmark_tabs-dependencies">Dependencies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#information_source-how-to-use">How To Use</a>
 </p>
 
-## :architecture: Architecture 
+## :computer: Application Architecture 
 ![](https://github.com/DavidsonIzefler/NLW-01/blob/master/images_README/Architecture_APP.png)
 
 ### ✨ [Application flow - On Figma](https://www.figma.com/file/1SxgOMojOB2zYT0Mdk28lB/?viewer=1&node-id=)
 
-## :rocket: Technologies
+## :wrench: Technologies
 
 This project was developed at the **Next Level Week #1** by [Rockseat](https://rocketseat.com.br/) using the following technologies:
 
